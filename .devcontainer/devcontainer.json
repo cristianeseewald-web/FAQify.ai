@@ -1,7 +1,7 @@
 {
   "name": "FAQify",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
-  "postCreateCommand": "npm install && npx prisma generate",
+  "postCreateCommand": "npm install -g @shopify/cli@latest && npm install && npx prisma generate",
   "remoteEnv": {
     "ANTHROPIC_MODEL": "claude-haiku-5-5"
   },
