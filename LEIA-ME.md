@@ -15,7 +15,14 @@ essas perguntas na loja, com o schema `FAQPage` para o Google (SEO).
 | Bloco da loja (acordeão + schema SEO) | `extensions/faqify-block/blocks/product-faq.liquid` |
 | Webhooks obrigatórios de privacidade (LGPD/GDPR) | `app/routes/webhooks.compliance.tsx` |
 
-## Passo a passo para rodar
+## Rodar sem instalar nada (GitHub Codespaces)
+
+1. Em github.com → foto de perfil → **Settings → Codespaces → Secrets → New secret**:
+   nome `ANTHROPIC_API_KEY`, valor = sua chave, repositório = FAQify.ai.
+2. No repositório: botão verde **Code → Codespaces → Create codespace on main**.
+3. Espere a instalação automática terminar e rode no terminal: `npm run dev`.
+
+## Passo a passo para rodar no próprio computador
 
 1. Crie uma conta grátis de parceiro: https://partners.shopify.com
 2. No painel de parceiro, crie uma **loja de desenvolvimento** (dev store) para testes.
