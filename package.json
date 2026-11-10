@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "faqify",
   "private": true,
   "scripts": {
     "build": "react-router build",

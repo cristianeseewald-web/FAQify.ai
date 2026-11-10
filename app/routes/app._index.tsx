@@ -203,7 +203,7 @@ export default function Index() {
   };
 
   return (
-    <s-page heading="Smart FAQ">
+    <s-page heading="FAQify">
       <s-button
         slot="primary-action"
         variant="primary"

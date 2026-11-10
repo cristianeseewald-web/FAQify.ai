@@ -4,7 +4,7 @@ import db from "../db.server";
 import { deleteShopData } from "../lib/plans.server";
 
 // Mandatory GDPR/privacy webhooks for App Store apps.
-// Smart FAQ stores no customer data, so customer requests need no action.
+// FAQify stores no customer data, so customer requests need no action.
 export const action = async ({ request }: ActionFunctionArgs) => {
   const { shop, topic } = await authenticate.webhook(request);
   console.log(`Received ${topic} compliance webhook for ${shop}`);

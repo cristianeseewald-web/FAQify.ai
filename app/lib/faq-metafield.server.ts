@@ -1,7 +1,7 @@
 import type { FaqItem } from "./faq-ai.server";
 
-// The storefront app block reads product.metafields.smart_faq.items
-export const FAQ_NAMESPACE = "smart_faq";
+// The storefront app block reads product.metafields.faqify.items
+export const FAQ_NAMESPACE = "faqify";
 export const FAQ_KEY = "items";
 
 type AdminGraphql = (
@@ -21,7 +21,7 @@ export async function ensureFaqDefinition(graphql: AdminGraphql) {
     {
       variables: {
         definition: {
-          name: "Product FAQ (Smart FAQ)",
+          name: "Product FAQ (FAQify)",
           namespace: FAQ_NAMESPACE,
           key: FAQ_KEY,
           type: "json",

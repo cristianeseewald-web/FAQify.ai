@@ -1,4 +1,4 @@
-# Smart FAQ: app Shopify de FAQ com IA
+# FAQify: app Shopify de FAQ com IA
 
 Gera perguntas frequentes (FAQ) para as páginas de produto usando o Claude e mostra
 essas perguntas na loja, com o schema `FAQPage` para o Google (SEO).
@@ -11,8 +11,8 @@ essas perguntas na loja, com o schema `FAQPage` para o Google (SEO).
 | Editor de FAQ por produto (editar, reordenar, apagar) | `app/routes/app.products.$id.tsx` |
 | Planos: Free (10/mês) e Pro (US$ 14/mês, 7 dias grátis) via Shopify Billing | `app/routes/app.billing.tsx`, `app/lib/plans.ts` |
 | Chamada à IA (Claude, saída em JSON validada) | `app/lib/faq-ai.server.ts` |
-| Gravação no metafield `smart_faq.items` do produto | `app/lib/faq-metafield.server.ts` |
-| Bloco da loja (acordeão + schema SEO) | `extensions/smart-faq-block/blocks/product-faq.liquid` |
+| Gravação no metafield `faqify.items` do produto | `app/lib/faq-metafield.server.ts` |
+| Bloco da loja (acordeão + schema SEO) | `extensions/faqify-block/blocks/product-faq.liquid` |
 | Webhooks obrigatórios de privacidade (LGPD/GDPR) | `app/routes/webhooks.compliance.tsx` |
 
 ## Passo a passo para rodar

@@ -1,4 +1,4 @@
-# Smart FAQ: plano de evolução
+# FAQify: plano de evolução
 
 Ordem pensada para validar rápido e só construir o que o mercado pedir.
 
@@ -61,7 +61,7 @@ motivo para o lojista continuar pagando todo mês.
   `customers/data_request` e `customers/redact` passam a ter que apagar/exportar esses dados de verdade.
 
 ### Etapa 3.2: e-mails de suporte
-- Cada loja recebe um endereço exclusivo (ex.: `loja123@inbox.smartfaq.app`).
+- Cada loja recebe um endereço exclusivo (ex.: `loja123@inbox.faqify.ai`).
 - O lojista encaminha (ou coloca em cópia) os e-mails de suporte.
 - A IA agrupa perguntas parecidas ("12 clientes perguntaram se serve no iPhone 16")
   e sugere novos FAQs para o produto certo.
