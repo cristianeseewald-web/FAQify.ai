@@ -1,0 +1,18 @@
+{
+  "name": "FAQify",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install && npx prisma generate",
+  "remoteEnv": {
+    "ANTHROPIC_MODEL": "claude-haiku-5-5"
+  },
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Chave da API do Claude (console.anthropic.com → API Keys). Começa com sk-ant-"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["Shopify.theme-check-vscode", "Prisma.prisma"]
+    }
+  }
+}
